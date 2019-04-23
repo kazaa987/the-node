@@ -1,0 +1,184 @@
+* {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: anton;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+body {
+    background-image: url(bio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-shadow: inset 0 0 0 1000px rgb(17, 17, 17, .2);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+ 
+
+.row {
+    width: 850px;
+    margin: 0 auto;
+}
+
+.giph {
+    background: url(../img/giphy.gif)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moze-background-size-: cover;
+    -o-background-size: cover;
+}
+
+.button {
+    border: none;
+    border-radius 3em;
+    box-shadow: 2px 2px 2px rgba (0, 0, 0, 0.2);
+    display: inline-block;
+    font-size: 1em;
+    padding: 1em 2em;
+    width: auto;
+}
+
+.cta-button {
+    background-color: #yourbuttoncolor;
+    color: #fff !important;
+}
+
+.cta-button:hover {
+    background-color: #yourbuttonhovercolor;
+}
+
+.btn {
+    display: inline-block;
+    border: 5px double #FFF;
+    color: #;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.btn hover: {
+    border: 5px double #fff;
+    color: #fff;
+}
+
+header {
+    position: absolute
+}
+
+h1,
+h2,
+h3,
+p {
+    font-family: anton, sans-serif;
+    color: rgb(255, 242, 181);
+    background-image: linear-gradient(rgb(255, 242, 181) 28%,
+    rgb(77, 77, 77) 40%,
+    rgb(255, 242, 181) 54%);
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: .3rem;
+}
+
+#logo {
+    font-family: 'anton', sans-serif;
+    color: #;
+    padding
+}
+.download_22_copy {
+  background-image: url("download-22 copy.png");
+  position: absolute;
+  left: -61px;
+  top: 2293px;
+  width: 201px;
+  height: 124px;
+  z-index: 30;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container {
+    float: inherit;
+}
+
+.column { border-style: groove; border-radius: 15px; 
+    float: left;
+    width: 33.33%; 
+}
+
+.column:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.align {
+    text-align: center;
+
+position: relative;
+ -webkit-animation-name:example; /* Safari 4.0 - 8.0 */
+ -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+   -webkit-animation-fill-mode:forwards;
+ animation-name: example;
+ animation-duration: 6s;
+   animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes example {
+ from {bottom: 0px;}
+ to {bottom: 400px; }
+}
+
+@keyframes example {
+ from {top: 0px;}
+    to {top: 400px; }}
+
+#hero {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+
+
+.cta a {
+    text-decoration: none;
+    padding: 50px;
+}
+
+.cta a:hover {
+    color: #
+}
+
+img {
+    position: relative;
+}
+
+
+/*
+color pallete
+#434343 
+#6c6c6c
+#747474
+#7c7c7c
+#8e8e8e
+#e8e8e8 gains
+#1f1f1f black
+#949494
+#9c9c9c darkgr
+#707070*/
